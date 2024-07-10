@@ -5,7 +5,7 @@
 	<groupId>de.symeda.sormas</groupId>
 	<artifactId>sormas-base</artifactId>
 	<packaging>pom</packaging>
-    <version>1.97.0</version>
+    <version>1.98.0-SNAPSHOT</version>
 
 	<properties>
 		<maven.minimum.version>3.6.3</maven.minimum.version>
@@ -1641,13 +1641,14 @@
 						<!--suppress MavenModelInspection -->
 						<password>${github.sormas.password}</password>
 						<scmCommentPrefix>[GITFLOW]</scmCommentPrefix>
-						<pushReleases>true</pushReleases>
-						<pushHotfixes>${pushHotfixes}</pushHotfixes>
+						<pushReleases>false</pushReleases>
+						<pushHotfixes>false</pushHotfixes>
 						<useReleaseProfile>false</useReleaseProfile>
 						<noDeploy>true</noDeploy>
 						<noHotfixBuild>true</noHotfixBuild>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
 						<updateDependencies>true</updateDependencies>
+						<squash>true</squash>
 					</configuration>
 				</plugin>
 
