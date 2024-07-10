@@ -1641,8 +1641,8 @@
 						<!--suppress MavenModelInspection -->
 						<password>${github.sormas.password}</password>
 						<scmCommentPrefix>[GITFLOW]</scmCommentPrefix>
-						<pushReleases>true</pushReleases>
-						<pushHotfixes>${pushHotfixes}</pushHotfixes>
+						<pushReleases>false</pushReleases>
+						<pushHotfixes>false</pushHotfixes>
 						<useReleaseProfile>false</useReleaseProfile>
 						<noDeploy>true</noDeploy>
 						<noHotfixBuild>true</noHotfixBuild>
