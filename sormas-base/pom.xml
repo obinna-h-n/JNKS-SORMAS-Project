@@ -1648,7 +1648,6 @@
 						<noHotfixBuild>true</noHotfixBuild>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
 						<updateDependencies>true</updateDependencies>
-						<squash>true</squash>
 					</configuration>
 				</plugin>
 
